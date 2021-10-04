@@ -6,6 +6,9 @@ O projeto parte da premissa do conceito de Visão Computacional, realizando o pr
 obtida através da webcam e interpretada por meio do módulo HandTrackingModule, módulo que
 utiliza o framework mediapipe, propriedade da Google, para a identificação da mão.
 
+A partir disso, conseguimos controlar LEDs que estão conectados a um Arduino UNO que, por sua vez,
+está conectado ao computador pela porta USB.
+
 O programa irá levar em consideração qual mão está sendo utilizada, sendo que:
 - MÃO DIREITA: Controla qual/quais LEDS acender. Cada dedo corresponde a um LED específico.
 - MÃO ESQUERDA: Controla a luminosidade dos LEDs que escolhi acender anteriormente pela mão direita.
