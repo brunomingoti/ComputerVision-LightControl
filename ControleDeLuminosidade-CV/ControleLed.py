@@ -15,7 +15,7 @@ O código só será executado corretamente se houver um Arduino conectado na por
 Certifique-se em qual porta está conectada em seu computador e adapte caso seja necessário.
 Além disso, lembre-se de selecionar a câmera correta na linha 42, normalmente será o valor 0.
 
-O controle da luminosidade deve ser adaptada de acordo com a câmera utilizada. Adaptações podem ser necessárias.
+O controle da luminosidade deve ser adaptada de acordo com a câmera utilizada e o circuito do Arduino (dependendo de quais resistores). Adaptações podem ser necessárias.
 Coloque comandos de print em locais estratégicos para facilitar a análise.
 
 APROVEITE!
