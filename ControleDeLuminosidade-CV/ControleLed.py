@@ -71,6 +71,7 @@ while True:
     landmarkList = detector.findPosition(img)
 
     if len(landmarkList) != 0:
+        #MÃO ESQUERDA - CONTROLE DA LUMINOSIDADE
         if landmarkList[4][1] < landmarkList[17][1]:
             # eu apenas estou interessado em pegar as informações dos pontos 4 (polegar) e 8 (indicador)
             # vou criar círculos em volta desses dois pontos no indicador e polegar:
@@ -91,7 +92,7 @@ while True:
             # Preciso converter os valores Hand Range para o Volume Range:
             # Com base no valor obtido do tamanho irei realizar o mapeamento lá no código do Arduino
 
-            tamanhoArduino = str(int(20000 + tamanho))
+            tamanhoArduino = str(int(20000 + tamanho)) #Somei 20000 para conseguir diferenciar esse valor com o valor gerado quando utilizo a mão direita
             print(tamanhoArduino)
 
             # Agora irei enviar a variável tamanhoArduino para o Arduino através da porta Serial:
@@ -109,6 +110,7 @@ while True:
             cv2.rectangle(img, (50, int(volBarra)), (85, 400), (255, 0, 0), cv2.FILLED)
             cv2.putText(img, f'{int(volPorcentagem)}%', (40, 450), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 0), 3)
 
+        #MÃO DIREITA - CONTROLE DE QUAL/QUAIS LEDs LIGAR
         if landmarkList[4][1] > landmarkList[17][1]:
             # Nessa estrutura que irei determinar os cenários dos dedos
             # Queremos pegar a ponta dos dedos e baseado no valor desses pontos decidir se a mão está fechada ou não. Para isso iremos pegar os pontos 4, 8, 12, 16, 20
@@ -125,7 +127,7 @@ while True:
             else:
                 fingers[0] = 0 # indica que o dedo está fechado
 
-                # Outros dedos - TENHO QUE SEPARAR PARA CADA DEDO
+            # Outros dedos - TENHO QUE SEPARAR PARA CADA DEDO
             for id in range(1, 5):  # vou colocar o loop para 4 dedos, já que o polegar não irá funcionar aqui
                 if landmarkList[tipIds[id]][2] < landmarkList[tipIds[id] - 2][2]:  # estou pegando o valor de y, por isso índice 2. Se for verdade, quer dizer que a mão está aberta - PROBLEMA: POLEGAR NUNCA FICA ABAIXO DO PONTO DE REFRÊNCIA. Por essa razão esse dedo foi tratado separadamente utilizando o eixo x.
                     if id == 1:
