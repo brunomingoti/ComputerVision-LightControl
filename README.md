@@ -15,6 +15,7 @@
 - [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 - [Observações](#observações-eyes)
 - [Bibliotecas utilizadas](#bibliotecas-utilizadas-books) 
+- [Possíveis aplicações](#possíveis-aplicações-dart)
 - [Possíveis melhorias](#possíveis-melhorias-rocket)
 - [Desenvolvedores e Contribuintes](#desenvolvedores-e-contribuintes-computer)
 - [Licença](#licença-grey_exclamation)
@@ -73,7 +74,7 @@ pip install pyserial
 - Conecte ao Arduino UNO e ligue ao computador.
 - Carregue o código C++ no Arduino.
 - Certifique-se de que a câmera e a porta selecionadas no código Python são as corretas.
-- O controle da luminosidade deve ser adaptada de acordo com a câmera utilizada.Adaptações podem ser necessárias. Coloque comandos de print em locais estratégicos para facilitar a análise.
+- O controle da luminosidade deve ser adaptada de acordo com a câmera utilizada. Adaptações podem ser necessárias. Coloque comandos de print em locais estratégicos para facilitar a análise.
 
 
 
@@ -103,6 +104,12 @@ APROVEITE!
 - [PySerial](https://pypi.org/project/pyserial/)
 - [Math](https://docs.python.org/pt-br/3/library/math.html)
 - [Time](https://docs.python.org/3/library/time.html)
+
+
+
+## Possíveis aplicações :dart:
+
+As aplicações possíveis para essa área são inúmeras, principalmente voltadas para a Indústria 4.0. O princípio do projeto onde eu vejo uma maior aplicação seria em casas inteligentes, por exemplo, mas a visão computacional também pode ser usada em áreas como reconhecimento facial, tradução de texto em tempo real, mapeamento com filmagens aéreas, segurança, análise de imagens de exames médicos, dentre várias outras utilizações.
 
 
 
