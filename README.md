@@ -98,11 +98,11 @@ APROVEITE!
 
 ## Bibliotecas utilizadas :books:
 
-- MediaPipe
-- NumPy
-- PySerial
-- Math
-- Time
+- [MediaPipe](https://pypi.org/project/mediapipe/)
+- [NumPy](https://pypi.org/project/numpy/)
+- [PySerial](https://pypi.org/project/pyserial/)
+- [Math](https://docs.python.org/pt-br/3/library/math.html)
+- [Time](https://docs.python.org/3/library/time.html)
 
 
 
