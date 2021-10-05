@@ -15,7 +15,7 @@
 - [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 - [Observações](#observações-eyes)
 - [Bibliotecas utilizadas](#bibliotecas-utilizadas-books) 
-- [Possíveis melhorias](#melhorias-rocket)
+- [Possíveis melhorias](#possíveis-melhorias-rocket)
 - [Desenvolvedores e Contribuintes](#desenvolvedores-e-contribuintes-computer)
 - [Licença](#licença-grey_exclamation)
 
@@ -32,35 +32,21 @@
 
 ## Deploy da Aplicação :dash:
 
-EM CONSTRUÇÃO
+
+![demonstracao](https://user-images.githubusercontent.com/77982950/136033158-4b664b2b-6078-4b12-a8e0-e6f0793836e4.gif)
+
 
 
 
 ## Pré-requisitos :pushpin:
 Material:
 
-```
-Arduino UNO
-```
+- Arduino UNO
+- Protoboard
+- 5 LEDs
+- 5 resistores (nesse caso foi utilizado 1k omh, por ter sido o de mais fácil acesso). O ideal seria a utilização de uma resistência menor (220 ohm, por exemplo) para não prejudicar na luminosidade, mas mudanças no código podem ser necessárias na parte do intervalo do tamanho da linha que liga a ponta do indicador e a ponta do polegar).
+- 11 jumpers macho/macho
 
-```
-Protoboard
-```
-
-```
-5 LEDs
-```
-
-```
-5 resistores (nesse caso foi utilizado 1k omh.
-O ideal seria a utilização de uma resistência menor para não prejudicar na luminosidade,
-mas mudanças no código podem ser necessárias na parte do intervalo do tamanho da linha que
-liga a ponta do indicador e a ponta do polegar).
-```
-
-```
-11 jumpers macho/macho
-```
 
 No Python:
 
@@ -113,11 +99,11 @@ APROVEITE!
 
 ## Bibliotecas utilizadas :books:
 
-- [MediaPipe]
-- [NumPy]
-- [PySerial]
-- [Math]
-- [Time]
+- MediaPipe
+- NumPy
+- PySerial
+- Math
+- Time
 
 
 
