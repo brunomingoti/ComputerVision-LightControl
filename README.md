@@ -90,8 +90,7 @@ O código só será executado corretamente se houver um Arduino conectado na por
 Certifique-se em qual porta está conectada em seu computador e adapte caso seja necessário.
 Além disso, lembre-se de selecionar a câmera correta na linha 42, normalmente será o valor 0.
 
-O controle da luminosidade deve ser adaptada de acordo com a câmera utilizada. Adaptações podem ser necessárias.
-Coloque comandos de print em locais estratégicos para facilitar a análise.
+O controle da luminosidade deve ser adaptada de acordo com a câmera utilizada. Adaptações podem ser necessárias. Coloque comandos de print em locais estratégicos para facilitar a análise.
 
 APROVEITE!
 
@@ -111,6 +110,8 @@ APROVEITE!
 
 :memo: Adaptar o código para reconhecer as duas mãos simultaneamente;
 
+:memo: Descobrir uma maneira de fixar um determinado valor para que não ocorra erros ao retirar as mãos.
+
 
 
 ## Desenvolvedores e Contribuintes :computer:
@@ -119,9 +120,9 @@ APROVEITE!
 
 Agradecimentos:
 - O código foi desenvolvido com base em vídeo-aulas desenvolvidas pelo canal no YouTube Murtaza's Workshop - Robotics and AI
-Links:
-https://youtu.be/9iEPzbG-xLE
-https://youtu.be/p5Z_GGRCI5s
+- Links:
+  - https://youtu.be/9iEPzbG-xLE
+  - https://youtu.be/p5Z_GGRCI5s
 
 
 
