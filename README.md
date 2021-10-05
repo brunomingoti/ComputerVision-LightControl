@@ -129,3 +129,5 @@ Agradecimentos:
 ## Licença :grey_exclamation:
 
 The [MIT License]() (MIT)
+
+Copyright :copyright: 2021 - Sistema de Controle de Luminosidade por Visão Computacional
