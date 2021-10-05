@@ -15,7 +15,7 @@
 - [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 - [Observações](#observações-eyes)
 - [Bibliotecas utilizadas](#bibliotecas-utilizadas-books) 
-- [Melhorias](#melhorias-rocket)
+- [Possíveis melhorias](#melhorias-rocket)
 - [Desenvolvedores e Contribuintes](#desenvolvedores-e-contribuintes-computer)
 - [Licença](#licença-grey_exclamation)
 
